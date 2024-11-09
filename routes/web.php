@@ -17,3 +17,7 @@ Route::get('event/edit',function(){
 Route::get('event',function(){
     return view('event.index');
 });
+
+Route::get('event/dash',function(){
+    return view('event.dashboard');
+});
