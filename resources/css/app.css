@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+}
+
+body{
+    overflow: hidden;
+}
+.bg-admin{
+    background-color: #F6F8FA;
+}
+/* ネイビーカラーのカスタム定義 */
+.bg-navy-800 {
+    background-color: #393F48;
+}
+
+.bg-navy-700 {
+    background-color: #2a3b63;
+}
+
+.border-navy-700 {
+    border-color: #2a3b63;
+}
+
+/* サイドバーのカスタムスタイル */
+.hover\:bg-navy-700:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
