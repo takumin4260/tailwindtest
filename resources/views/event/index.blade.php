@@ -46,9 +46,9 @@
                 </svg>
                 <h2 class="text-sm font-light">お知らせお知らせお知らせ</h2>
             </div>
-            <div class="w-3/4 mx-auto py-8 px-4">
+            <div class="w-full sm:w-3/4 mx-auto py-8 px-4">
                 <!-- 最後にアクセスしたプロジェクト -->
-                <div class="flex justify-center items-center mb-8 gap-32">
+                <div class="flex justify-center items-center mb-8 sm:space-x-32 flex-wrap space-y-4">
                     <h3 class="text-gray-700">最後にアクセスしたプロジェクト：イベント名</h3>
                     <button
                         class="bg-yellow-400 hover:bg-yellow-500 px-4 py-2 rounded-md font-medium text-white">
@@ -58,7 +58,7 @@
                 <!-- 一覧 -->
                 <h4 class="text-gray-500 mb-4 text-center">備考</h4>
 
-                <div class="bg-white p-12">
+                <div class="bg-white sm:p-12 p-6">
                     <!-- イベントカードグリッド -->
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                         @for ($i = 0; $i < 4; $i++)

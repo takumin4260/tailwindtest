@@ -92,9 +92,9 @@
                     <h2 class="text-sm font-light">お知らせお知らせお知らせ</h2>
                 </div>
             </div>
-            <div class="w-3/4 mx-auto py-8 px-4">
+            <div class="w-full sm:w-3/4 mx-auto py-8 px-4">
                 <!-- タブナビゲーション -->
-                <div class="flex justify-between items-center mb-6">
+                <div class="flex space-y-4 flex-wrap sm:justify-between justify-start items-center mb-6">
                     <div class="inline-flex rounded-full border border-white overflow-hidden shadow-sm" role="group">
                         <button class="px-8 py-1 text-xs font-medium text-white bg-navy-800 rounded-l-md">
                             編集
@@ -106,13 +106,13 @@
                             承認
                         </button>
                     </div>
-                    <div class="px-6 py-3 bg-gray-200 text-gray-700 rounded-md font-medium">
+                    <div class="px-6 py-3 bg-gray-200 text-gray-700 rounded-md font-medium ml-auto">
                         まだ完了できません
                     </div>
                 </div>
 
                 <!-- キャラクターメッセージ -->
-                <div class="bg-white rounded-lg shadow-sm px-6 py-4 mb-8 flex items-center space-x-4">
+                <div class="bg-white rounded-lg shadow-sm sm:px-6 px-4 py-4 mb-8 flex items-center space-x-4">
                     <img src="{{ url('storage/human_icon.png') }}" alt="" class="w-14 h-14 rounded-full">
                     <div class="bg-admin flex items-center p-4 w-11/12">
                     <p class="text-gray-700">以下の項目を記入すると、イベントの売上します。</p>
