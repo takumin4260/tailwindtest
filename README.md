@@ -1,5 +1,4 @@
-##local start
-#clone
+local start
 ```
 1. git clone ...
 2. npm run dev
