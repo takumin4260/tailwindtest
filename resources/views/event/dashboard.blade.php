@@ -130,9 +130,7 @@
     </aside>
 
     <!-- メインコンテンツ -->
-    <main class="flex-1 overflow-y-auto pt-14 transition-all duration-300 ease-in-out lg:ml-64">
-        <!-- ここにメインコンテンツを追加 -->
-        <!-- フォームフィールド、画像アップロードセクションなどを含める -->
+    <main class="flex-1 overflow-y-auto transition-all duration-300 ease-in-out lg:ml-64">
     </main>
 </div>
 
