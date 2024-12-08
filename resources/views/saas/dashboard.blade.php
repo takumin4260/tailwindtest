@@ -18,7 +18,7 @@
                         <div class="flex items-center gap-2 mb-2">
                             <label for="{{ $field['name'] }}" class="block text-sm font-medium text-gray-700">{{ $field['label'] }}</label>
                             @if ($field['required'])
-                                <span class="inline-flex items-center bg-green-500 px-2 py-1 text-xs font-medium text-white ml-2">必須</span>
+                                <span class="inline-flex items-center bg-gray-700 px-2 py-1 text-xs font-medium text-white ml-2">必須</span>
                             @endif
                         </div>
                         @if ($field['type'] === 'select')

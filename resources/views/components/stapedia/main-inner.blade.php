@@ -8,7 +8,7 @@
     </div>
     <footer class="h-14 flex items-center bg-navy-800 text-white">
         <div class="mx-auto text-center">
-            <h2 class="text-base font-light">©Saas, inc.</h2>
+            <h2 class="text-base font-light">©stapedia, inc.</h2>
         </div>
     </footer>
 </main>

@@ -68,17 +68,21 @@
                     </nav>
                 </div>
 
-                <!-- 応募者セクション -->
+
+                <!-- スカウト編集セクション -->
                 <div class="space-y-1 border-t border-gray-400">
-                    <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">応募者</div>
+                    <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">スカウト</div>
                     <nav class="space-y-1">
                         <a href="#"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
                             一覧
                         </a>
+                        <a href="#"
+                           class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
+                            新規作成
+                        </a>
                     </nav>
                 </div>
-
                 <!-- 設定編集セクション -->
                 <div class="space-y-1 border-t border-gray-400">
                     <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">設定</div>

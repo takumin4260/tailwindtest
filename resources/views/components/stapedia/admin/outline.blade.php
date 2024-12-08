@@ -24,23 +24,15 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
         </button>
-        <h1 class="text-lg font-semibold hidden text-white sm:block">Saas</h1>
+        <h1 class="text-lg font-semibold hidden text-white sm:block">Stapedia</h1>
     </header>
 
     <!-- サイドバー -->
     <aside id="sidebar" class="fixed top-0 left-0 w-64 h-full bg-navy-800 pt-14 border-r z-40 transform -translate-x-full transition-transform duration-300 ease-in-out lg:translate-x-0">
         <div class="px-3 py-4">
             <div class="space-y-4">
-                <!-- プロジェクト名とボタン -->
-                <div class="">
-                    <button
-                        class="w-fit justify-center gap-2 bg-green-600 text-white hover:bg-green-700 px-7 py-3 rounded-lg flex items-center text-sm mt-2 mb-4 mx-auto">
-                        最初からスタート
-                    </button>
-                </div>
-                <!-- ペルソナ編集セクション -->
                 <div class="space-y-1">
-                    <div class="px-3 py-2 text-sm font-medium text-gray-400">ペルソナ</div>
+                    <div class="px-3 py-2 text-sm font-medium text-gray-400">教材マスタ管理</div>
                     <nav class="space-y-1">
                         <a href="#"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
@@ -48,14 +40,13 @@
                         </a>
                         <a href="#"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
-                            新規作成
+                            新規追加
                         </a>
                     </nav>
                 </div>
 
-                <!-- 求人票編集セクション -->
                 <div class="space-y-1 border-t border-gray-400">
-                    <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">求人票</div>
+                    <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">生徒管理</div>
                     <nav class="space-y-1">
                         <a href="#"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
@@ -63,33 +54,21 @@
                         </a>
                         <a href="#"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
-                            新規作成
+                            新規登録
                         </a>
                     </nav>
                 </div>
 
-                <!-- 応募者セクション -->
                 <div class="space-y-1 border-t border-gray-400">
-                    <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">応募者</div>
+                    <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">講師管理</div>
                     <nav class="space-y-1">
                         <a href="#"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
                             一覧
                         </a>
-                    </nav>
-                </div>
-
-                <!-- 設定編集セクション -->
-                <div class="space-y-1 border-t border-gray-400">
-                    <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">設定</div>
-                    <nav class="space-y-1">
                         <a href="#"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
-                            企業情報
-                        </a>
-                        <a href="#"
-                           class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
-                            ヘルプ
+                            新規登録
                         </a>
                     </nav>
                 </div>

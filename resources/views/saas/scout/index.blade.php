@@ -1,130 +1,39 @@
 <x-saas.outline>
     <x-saas.main-inner>
         <x-slot:wFull>on</x-slot:wFull>
-        <x-slot:title>ペルソナ一覧</x-slot:title>
+        <x-slot:title>スカウト文一覧</x-slot:title>
 
         @php
             // テーブルヘッダーの定義
             $headers = [
-                ['key' => 'name', 'label' => 'ペルソナ名'],
+                ['key' => 'name', 'label' => 'スカウト文名'],
                 ['key' => 'created_at', 'label' => '作成日'],
                 ['key' => 'updated_at', 'label' => '最終更新日'],
                 ['key' => 'job_type', 'label' => '職種'],
                 ['key' => 'status', 'label' => 'ステータス'],
-                ['key' => 'actions', 'label' => '生成'],
-                ['key' => 'actions', 'label' => '操作']
+                ['key' => 'actions', 'label' => '操作', 'align' => 'end']
             ];
 
             // ペルソナデータの定義
             $personas = [
                 [
-                    'name' => '令和4年度エンジニア',
+                    'name' => '「ペルソナ①用スカウト文」',
                     'created_at' => '2023-05-15',
                     'updated_at' => '2023-06-01',
                     'job_type' => 'フルスタックエンジニア',
                     'status' => [
-                        'label' => '新規',
-                        'color' => ''
+                        'label' => '使用中',
+                        'color' => 'green'
                     ]
                 ],
                 [
-                    'name' => '令和4年度デザイナー',
+                    'name' => 'ペルソナ②用スカウト文',
                     'created_at' => '2023-04-20',
                     'updated_at' => '2023-05-10',
                     'job_type' => 'UIデザイナー',
                     'status' => [
-                        'label' => '使用中',
-                        'color' => ''
-                    ]
-                ],
-                [
-                    'name' => '令和4年度総合職',
-                    'created_at' => '2023-04-20',
-                    'updated_at' => '2023-05-10',
-                    'job_type' => '総合職',
-                    'status' => [
                         'label' => '未使用',
-                        'color' => ''
-                    ]
-                ],
-                [
-                    'name' => '令和4年度総合職',
-                    'created_at' => '2023-04-20',
-                    'updated_at' => '2023-05-10',
-                    'job_type' => '総合職',
-                    'status' => [
-                        'label' => '未使用',
-                        'color' => ''
-                    ]
-                ],
-                [
-                    'name' => '令和4年度総合職',
-                    'created_at' => '2023-04-20',
-                    'updated_at' => '2023-05-10',
-                    'job_type' => '総合職',
-                    'status' => [
-                        'label' => '未使用',
-                        'color' => ''
-                    ]
-                ],
-                [
-                    'name' => '令和4年度総合職',
-                    'created_at' => '2023-04-20',
-                    'updated_at' => '2023-05-10',
-                    'job_type' => '総合職',
-                    'status' => [
-                        'label' => '未使用',
-                        'color' => ''
-                    ]
-                ],
-                [
-                    'name' => '令和4年度総合職',
-                    'created_at' => '2023-04-20',
-                    'updated_at' => '2023-05-10',
-                    'job_type' => '総合職',
-                    'status' => [
-                        'label' => '未使用',
-                        'color' => ''
-                    ]
-                ],
-                [
-                    'name' => '令和4年度総合職',
-                    'created_at' => '2023-04-20',
-                    'updated_at' => '2023-05-10',
-                    'job_type' => '総合職',
-                    'status' => [
-                        'label' => '未使用',
-                        'color' => ''
-                    ]
-                ],
-                [
-                    'name' => '令和4年度総合職',
-                    'created_at' => '2023-04-20',
-                    'updated_at' => '2023-05-10',
-                    'job_type' => '総合職',
-                    'status' => [
-                        'label' => '未使用',
-                        'color' => ''
-                    ]
-                ],
-                [
-                    'name' => '令和4年度総合職',
-                    'created_at' => '2023-04-20',
-                    'updated_at' => '2023-05-10',
-                    'job_type' => '総合職',
-                    'status' => [
-                        'label' => '未使用',
-                        'color' => ''
-                    ]
-                ],
-                [
-                    'name' => '令和4年度総合職',
-                    'created_at' => '2023-04-20',
-                    'updated_at' => '2023-05-10',
-                    'job_type' => '総合職',
-                    'status' => [
-                        'label' => '未使用',
-                        'color' => ''
+                        'color' => 'yellow'
                     ]
                 ]
             ];
@@ -188,7 +97,7 @@
             </div>
 
             <!-- テーブル -->
-            <div class="flex flex-col mb-4">
+            <div class="flex flex-col">
                 <div class="-m-1.5 overflow-x-auto">
                     <div class="p-1.5 min-w-full inline-block align-middle">
                         <div class="border rounded-lg shadow overflow-hidden dark:border-gray-700 dark:shadow-gray-900">
@@ -223,9 +132,6 @@
                                     </span>
                                         </td>
                                         <td class="bg-white px-6 py-4 whitespace-nowrap text-end text-sm font-medium">
-                                            <a href="#" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">求人票作成</a>
-                                        </td>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-end text-sm font-medium">
                                             <a href="#" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">編集</a>
                                             <span class="text-gray-500 dark:text-gray-400 mx-1">|</span>
                                             <a href="#" class="text-red-500 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300">削除</a>
@@ -238,8 +144,6 @@
                     </div>
                 </div>
             </div>
-
-            <x-saas.parts.nav></x-saas.parts.nav>
         </div>
     </x-saas.main-inner>
 </x-saas.outline>
