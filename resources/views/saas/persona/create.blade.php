@@ -226,10 +226,12 @@
             </div>
 
             <div class="mt-8 flex justify-center gap-8">
+                <a href=" <?= route('saas.persona.index') ?>">
                 <button type="button"
                         class="px-6 py-3 bg-navy-800 text-white rounded-md hover:bg-navy-900 focus:outline-none focus:ring-2 focus:ring-navy-500 focus:ring-offset-2">
                     登録
                 </button>
+                </a>
                 <button type="button"
                         class="px-6 py-3 bg-navy-800 text-white rounded-md hover:bg-navy-900 focus:outline-none focus:ring-2 focus:ring-navy-500 focus:ring-offset-2">
                     求人票の生成
@@ -252,12 +254,14 @@
             >
                 キャンセル
             </button>
+            <a href="<?= route('saas.posting.create') ?>">
             <button
                 id="confirmBtn"
                 class="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
             >
                 生成する
             </button>
+            </a>
         </div>
     </div>
 </div>

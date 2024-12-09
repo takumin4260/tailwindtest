@@ -18,61 +18,62 @@ Route::get('event/dash',function(){
     return view('event.dashboard');
 });
 
-Route::get('saas',function(){
+// SaaS Routes
+Route::get('saas', function () {
     return view('saas.index');
-});
+})->name('saas.index');
 
-Route::get('saas/dashboard',function(){
+Route::get('saas/dashboard', function () {
     return view('saas.dashboard');
-});
+})->name('saas.dashboard');
 
-Route::get('saas/help',function(){
+Route::get('saas/help', function () {
     return view('saas.help');
-});
+})->name('saas.help');
 
-Route::get('saas/persona/create',function(){
+Route::get('saas/persona/create', function () {
     return view('saas.persona.create');
-});
+})->name('saas.persona.create');
 
-Route::get('saas/persona/edit',function(){
+Route::get('saas/persona/edit', function () {
     return view('saas.persona.edit');
-});
+})->name('saas.persona.edit');
 
-Route::get('saas/persona',function(){
+Route::get('saas/persona', function () {
     return view('saas.persona.index');
-});
+})->name('saas.persona.index');
 
-Route::get('saas/posting',function(){
+Route::get('saas/posting', function () {
     return view('saas.posting.index');
-});
+})->name('saas.posting.index');
 
-Route::get('saas/posting/create',function(){
+Route::get('saas/posting/create', function () {
     return view('saas.posting.create');
-});
+})->name('saas.posting.create');
 
-Route::get('saas/posting/edit',function(){
+Route::get('saas/posting/edit', function () {
     return view('saas.posting.edit');
-});
+})->name('saas.posting.edit');
 
-Route::get('saas/posting/beforeCreate',function(){
+Route::get('saas/posting/beforeCreate', function () {
     return view('saas.posting.beforeCreate');
-});
+})->name('saas.posting.beforeCreate');
 
-Route::get('saas/applier/detail',function(){
+Route::get('saas/applier/detail', function () {
     return view('saas.applier.detail');
 })->name('saas.applier.detail');
 
-Route::get('saas/applier/action',function(){
+Route::get('saas/applier/action', function () {
     return view('saas.applier.action');
 })->name('saas.applier.action');
 
-Route::get('saas/applier/actionAfter',function(){
+Route::get('saas/applier/actionAfter', function () {
     return view('saas.applier.actionAfter');
 })->name('saas.applier.actionAfter');
 
-Route::get('saas/applier/',function(){
+Route::get('saas/applier/', function () {
     return view('saas.applier.index');
-});
+})->name('saas.applier.index');
 
 
 

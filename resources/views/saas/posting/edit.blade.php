@@ -227,10 +227,12 @@
             </div>
 
             <div class="mt-8 flex justify-center gap-8">
+                <a href="<?= route('saas.posting.index') ?>">
                 <button type="button"
                         class="px-6 py-3 bg-navy-800 text-white rounded-md hover:bg-navy-900 focus:outline-none focus:ring-2 focus:ring-navy-500 focus:ring-offset-2">
                     更新
                 </button>
+                </a>
             </div>
         </div>
     </x-saas.main-inner>

@@ -170,7 +170,7 @@
         <div class="w-full px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <!-- 新規作成ボタン -->
             <div class="mb-5">
-                <a href="#"
+                <a href="<?= route('saas.posting.beforeCreate') ?>"
                    class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-navy-800 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
                     新規求人票作成
                 </a>
@@ -215,7 +215,7 @@
                                                class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">プレビュー</a>
                                         </td>
                                         <td class="bg-white px-6 py-4 whitespace-nowrap text-end text-sm font-medium">
-                                            <a href="#"
+                                            <a href="<?= route('saas.posting.edit') ?>"
                                                class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">編集</a>
                                             <span class="text-gray-500 dark:text-gray-400 mx-1">|</span>
                                             <a href="#"

@@ -33,20 +33,22 @@
             <div class="space-y-4">
                 <!-- プロジェクト名とボタン -->
                 <div class="">
+                    <a href="<?= route('saas.persona.create') ?> ">
                     <button
                         class="w-fit justify-center gap-2 bg-green-600 text-white hover:bg-green-700 px-7 py-3 rounded-lg flex items-center text-sm mt-2 mb-4 mx-auto">
                         最初からスタート
                     </button>
+                    </a>
                 </div>
                 <!-- ペルソナ編集セクション -->
                 <div class="space-y-1">
                     <div class="px-3 py-2 text-sm font-medium text-gray-400">ペルソナ</div>
                     <nav class="space-y-1">
-                        <a href="#"
+                        <a href="<?= route('saas.persona.index') ?>"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
                             一覧
                         </a>
-                        <a href="#"
+                        <a href="<?= route('saas.persona.create') ?>"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
                             新規作成
                         </a>
@@ -57,11 +59,11 @@
                 <div class="space-y-1 border-t border-gray-400">
                     <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">求人票</div>
                     <nav class="space-y-1">
-                        <a href="#"
+                        <a href=" <?= route('saas.posting.index') ?>"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
                             一覧
                         </a>
-                        <a href="#"
+                        <a href="<?= route('saas.posting.beforeCreate') ?>"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
                             新規作成
                         </a>
@@ -72,7 +74,7 @@
                 <div class="space-y-1 border-t border-gray-400">
                     <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">応募者</div>
                     <nav class="space-y-1">
-                        <a href="#"
+                        <a href="<?= route('saas.applier.index') ?>"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
                             一覧
                         </a>
@@ -83,11 +85,7 @@
                 <div class="space-y-1 border-t border-gray-400">
                     <div class="px-3 py-2 mt-2 text-sm font-medium text-gray-400">設定</div>
                     <nav class="space-y-1">
-                        <a href="#"
-                           class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
-                            企業情報
-                        </a>
-                        <a href="#"
+                        <a href=" <?= route('saas.help') ?>"
                            class="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-300 hover:bg-navy-700 pl-6">
                             ヘルプ
                         </a>

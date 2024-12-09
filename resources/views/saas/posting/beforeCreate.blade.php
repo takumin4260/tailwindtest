@@ -49,6 +49,7 @@
 
 
             <div class="flex items-center justify-center gap-20">
+                <a href="<?= route('saas.persona.create') ?>">
                 <button
                     type="submit"
                     name="action"
@@ -57,6 +58,8 @@
                 >
                     ペルソナを作成
                 </button>
+                </a>
+                <a href="<?= route('saas.posting.create') ?>">
                 <button
                     type="submit"
                     name="action"
@@ -65,6 +68,7 @@
                 >
                     次へ
                 </button>
+                </a>
             </div>
         </div>
     </x-saas.main-inner>
