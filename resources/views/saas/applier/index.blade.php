@@ -174,7 +174,7 @@
                                 <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
                                 @foreach($personas as $persona)
                                     <tr>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
+                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm font-medium text-blue-500 dark:text-gray-200">
                                             {{ $persona['name'] }}
                                         </td>
                                         <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
