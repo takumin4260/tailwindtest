@@ -39,7 +39,7 @@
             <div class="p-6 bg-white">
                 <div class="flex gap-6">
                     <div class="w-16">
-                        <img src="{{ asset('img/human_icon.png') }}" alt="アラートアイコン" class="w-full">
+                        <img src="{{ asset('storage/human_icon.png') }}" alt="アラートアイコン" class="w-full">
                     </div>
                     <div class="flex-1 space-y-4">
                         <div class="bg-gray-100 rounded-lg p-4">
