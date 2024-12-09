@@ -18,7 +18,7 @@
                     @foreach($contents as $content)
                         <tr>
                             @foreach($content as $key => $value)
-                                <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
+                                <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-black dark:text-gray-200">
                                     @if($value === 'action_normal')
                                         <div class="text-end">
                                             <a href="#"

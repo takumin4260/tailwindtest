@@ -1,7 +1,7 @@
 <x-stapedia.user.outline>
     <x-stapedia.main-inner>
         <x-slot:title>◯月月報</x-slot:title>
-        <h1 class="text-lg font-semibold text-gray-800 mb-10">進捗関連の数値</h1>
+        <h1 class="text-lg font-semibold text-black mb-10">進捗関連の数値</h1>
         <div class="container flex w-full justify-start mt-5 mb-14">
             <div class="w-2/5 mr-8">
                 <div class="custom-card">
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <h1 class="text-lg font-semibold text-gray-800 mb-10">講師コメント</h1>
+        <h1 class="text-lg font-semibold text-black mb-10">講師コメント</h1>
         <div class="p-5 w-full bg-white">ああああ<br>サンプルサンプル<br>サンプルサンプル<br>サンプルサンプル<br>サンプルサンプル</div>
         <p class="text-right mt-10">2024/06/10更新</p>
     </x-stapedia.main-inner>

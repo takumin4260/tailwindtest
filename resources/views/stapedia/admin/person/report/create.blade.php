@@ -4,7 +4,7 @@
 
         <x-stapedia.parts.input.text
             :option="['label' => '月報名', 'required' => 'on', 'description' => '今日進めたページ数を入力しましょう', 'placeholder' => '◯月分月報', 'name' => 'capacity']"/>
-        <h1 class="text-lg font-semibold text-gray-800 mb-10">進捗関連の数値</h1>
+        <h1 class="text-lg font-semibold text-black mb-10">進捗関連の数値</h1>
         <div class="container flex w-full justify-start mt-5 mb-14">
             <div class="w-2/5 mr-8">
                 <div class="custom-card">

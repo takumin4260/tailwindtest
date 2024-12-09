@@ -28,7 +28,7 @@
                         ],
                     ];
                 @endphp
-                <h1 class="text-lg font-semibold text-gray-800 mb-10">今月取り組む教材</h1>
+                <h1 class="text-lg font-semibold text-black mb-10">今月取り組む教材</h1>
                 <x-stapedia.parts.table :headers="$goalHeaders" :contents="$goalContents" />
                 @php
                     $headers = [
@@ -45,7 +45,7 @@
                         ],
                     ];
                 @endphp
-                <h1 class="text-lg font-semibold text-gray-800 mb-10">今日のタスク</h1>
+                <h1 class="text-lg font-semibold text-black mb-10">今日のタスク</h1>
                 <x-stapedia.parts.table :headers="$headers" :contents="$contents" />
             </div>
 

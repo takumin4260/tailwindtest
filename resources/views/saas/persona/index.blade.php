@@ -205,19 +205,19 @@
                                 <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
                                 @foreach($personas as $persona)
                                     <tr>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-800 dark:text-gray-200">
+                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm font-medium text-black dark:text-gray-200">
                                             {{ $persona['name'] }}
                                         </td>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
+                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-black dark:text-gray-200">
                                             {{ $persona['created_at'] }}
                                         </td>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
+                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-black dark:text-gray-200">
                                             {{ $persona['updated_at'] }}
                                         </td>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
+                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-black dark:text-gray-200">
                                             {{ $persona['job_type'] }}
                                         </td>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
+                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-black dark:text-gray-200">
                                     <span class="inline-flex items-center gap-1.5 py-0.5 px-2 rounded-full text-xs font-medium bg-{{ $persona['status']['color'] }}-100 text-{{ $persona['status']['color'] }}-800 dark:bg-{{ $persona['status']['color'] }}-900 dark:text-{{ $persona['status']['color'] }}-200">
                                         {{ $persona['status']['label'] }}
                                     </span>

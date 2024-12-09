@@ -9,22 +9,22 @@
             <!-- 会話のやり取り -->
             <div class="space-y-4 mb-6">
                 <div class="flex justify-start">
-                    <div class=" bg-green-50 text-gray-800 p-3 rounded-lg shadow-md max-w-md">
+                    <div class=" bg-green-50 text-black p-3 rounded-lg shadow-md max-w-md">
                         未定未定未定未定未定未定
                     </div>
                 </div>
                 <div class="flex justify-end">
-                    <div class="bg-white text-gray-800 p-3 rounded-lg shadow-md max-w-md">
+                    <div class="bg-white text-black p-3 rounded-lg shadow-md max-w-md">
                         未定未定未定未定未定未定
                     </div>
                 </div>
                 <div class="flex justify-start">
-                    <div class=" bg-green-50 text-gray-800 p-3 rounded-lg shadow-md max-w-md">
+                    <div class=" bg-green-50 text-black p-3 rounded-lg shadow-md max-w-md">
                         未定未定未定未定未定未定
                     </div>
                 </div>
                 <div class="flex justify-end">
-                    <div class="bg-white text-gray-800 p-3 rounded-lg shadow-md max-w-md">
+                    <div class="bg-white text-black p-3 rounded-lg shadow-md max-w-md">
                         未定未定未定未定未定未定
                     </div>
                 </div>
@@ -117,7 +117,7 @@
         <div class="flex justify-end space-x-4">
             <button
                 id="cancelBtn"
-                class="px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
+                class="px-4 py-2 bg-gray-200 text-black rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
             >
                 キャンセル
             </button>

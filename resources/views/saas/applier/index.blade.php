@@ -177,13 +177,13 @@
                                         <td class="bg-white px-6 py-4 whitespace-nowrap text-sm font-medium text-blue-500 dark:text-gray-200">
                                             {{ $persona['name'] }}
                                         </td>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
+                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-black dark:text-gray-200">
                                             {{ $persona['updated_at'] }}
                                         </td>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
+                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-black dark:text-gray-200">
                                             {{ $persona['created_at'] }}
                                         </td>
-                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-gray-800 dark:text-gray-200">
+                                        <td class="bg-white px-6 py-4 whitespace-nowrap text-sm text-black dark:text-gray-200">
                                             {{ $persona['action_at'] }}
                                         </td>
                                         <td class="bg-white px-6 py-4 whitespace-nowrap text-end text-sm font-medium">
