@@ -24,7 +24,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
         </button>
-        <h1 class="text-lg font-semibold hidden text-white sm:block">Saas</h1>
+        <h1 class="text-lg font-semibold hidden text-white sm:block"><a href="<?= route('saas.index') ?>">Saas</a></h1>
     </header>
 
     <!-- サイドバー -->
